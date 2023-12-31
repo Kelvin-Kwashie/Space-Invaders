@@ -252,6 +252,7 @@ def main_manu():
                 run = False
             if event.type == pygame.MOUSEBUTTONDOWN:
                 main()
+                break
     pygame.quit()
 
 main_manu()
