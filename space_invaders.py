@@ -192,7 +192,7 @@ def main():
             lost_count += 1
 
         if lost:
-            if lost_font > FPS *3:
+            if lost_count > FPS *3:
                 run = False
             else:
                 continue
